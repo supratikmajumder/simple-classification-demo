@@ -10,8 +10,8 @@ stages:
     #  - data
     #  - src/models/predict_model.py
     metrics:
-    - reports/metrics.json
-      cache: false
+    - reports/metrics.json:
+        cache: false
     plots:
-    - reports/loss.csv
-      cache: false
+    - reports/loss.csv:
+        cache: false
